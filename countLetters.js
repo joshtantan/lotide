@@ -18,7 +18,6 @@ const countLetters = words => {
   const letterCounter = {};
 
   for (const letter of words) {
-    console.log(letter);
     if (letterCounter[letter]) {
       letterCounter[letter] += 1;
     } else {
