@@ -31,7 +31,7 @@ const without = (inputArr, removeArr) => {
   if (inputArr.length > 0 && removeArr.length > 0) {
     for (let i in inputArr) {
       for (let j in removeArr) {
-        if (inputArr[i] !== removeArr[j] && j == removeArr.length - 1) {
+        if (inputArr[i] !== removeArr[j] && Number(j) === removeArr.length - 1) {
           withoutArr.push(inputArr[i]);
           break;
         }
