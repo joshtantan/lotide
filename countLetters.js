@@ -17,19 +17,28 @@ const assertEqual = function(actual, expected) {
 const countLetters = words => {
   const letterCounter = {};
 
+  for (const letter of words) {
+    console.log(letter);
+    if (letterCounter[letter]) {
+      letterCounter[letter] += 1;
+    } else {
+      letterCounter[letter] = 1;
+    }
+  }
+
   return letterCounter;
 };
 
 // Test code
-assertEqual(countLetters("lighthouse in the house"), {
-  l: 1,
-  i: 2,
-  g: 1,
-  h: 4,
-  t: 2,
-  o: 2,
-  u: 2,
-  s: 2,
-  e: 3,
-  n: 1,
-});
+const testResult = countLetters("lighthouse in the house");
+
+assertEqual(testResult["l"], 1);
+assertEqual(testResult["i"], 2);
+assertEqual(testResult["g"], 1);
+assertEqual(testResult["h"], 4);
+assertEqual(testResult["t"], 2);
+assertEqual(testResult["o"], 2);
+assertEqual(testResult["u"], 2);
+assertEqual(testResult["s"], 2);
+assertEqual(testResult["e"], 3);
+assertEqual(testResult["n"], 1);
