@@ -44,6 +44,6 @@ assertArraysEqual(results, ['g', 'c', 't', 'm', 't'], true);
 results = map(words, word => word[word.length - 1]);
 assertArraysEqual(results, ['d', 'l', 'o', 'r', 'm'], true);
 
-results = map(words, word => word + " *break* ");
-assertArraysEqual(results, ["ground *break* ", "control *break* ", "to *break* ", "major *break* ", "tom *break* "], true);
+results = map(words, word => word + word);
+assertArraysEqual(results, ["groundground", "controlcontrol", "toto", "majormajor", "tomtom"], true);
 
