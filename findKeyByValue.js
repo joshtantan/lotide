@@ -15,17 +15,13 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKeyByValue = (inputObj, targetVal) => {
-  let returnKey;
-
   if (inputObj && targetVal) {
     for (const key in inputObj) {
       if (inputObj[key] === targetVal) {
-        returnKey = key;
+        return key;
       }
     }
   }
-
-  return returnKey;
 };
 
 // Test code
