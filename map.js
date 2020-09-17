@@ -33,7 +33,7 @@ const map = function(array, callback) {
   }
 
   return results;
-}
+};
 
 // Test code
 const words = ["ground", "control", "to", "major", "tom"];
@@ -46,4 +46,3 @@ assertArraysEqual(results, ['d', 'l', 'o', 'r', 'm'], true);
 
 results = map(words, word => word + word);
 assertArraysEqual(results, ["groundground", "controlcontrol", "toto", "majormajor", "tomtom"], true);
-
