@@ -9,7 +9,7 @@ describe("#tail", () => {
   });
   it(`returns ["I've", "been", "to", "Hollywood"] for ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"]`, () => {
     const data = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
-    const fn = x => x === ','
+    const fn = x => x === ',';
     assert.deepEqual(takeUntil(data, fn), ["I've", "been", "to", "Hollywood"]);
   });
 });
