@@ -1,0 +1,26 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "A basic lodash implementation for Lighthouse Labs Web Development Bootcamp",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshtantan/lotide.git"
+  },
+  "author": "Joshua Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshtantan/lotide/issues"
+  },
+  "homepage": "https://github.com/joshtantan/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
