@@ -4,7 +4,6 @@ const eqArrays = (arr1, arr2) => {
 
     while (i < arr1.length) {
       if (arr1[i] !== arr2[i]) {
-        console.log(`Return false with arr1[${i}]: ${arr1[i]} and arr2[${i}]: ${arr2[i]}`);
         return false;
       }
 
