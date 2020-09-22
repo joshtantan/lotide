@@ -10,7 +10,7 @@ describe("#letterPositions", () => {
       e: [1],
       l: [2, 3],
       o: [4]
-    }
+    };
 
     assert.deepEqual(actual, expected);
   });
@@ -29,7 +29,7 @@ describe("#letterPositions", () => {
       e: [9, 16, 22],
       n: [12],
       " ": [10, 13, 17]
-    }
+    };
 
     assert.deepEqual(actual, expected);
   });
