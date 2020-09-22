@@ -2,7 +2,7 @@
   "name": "lotide",
   "version": "1.0.0",
   "description": "A basic lodash implementation for Lighthouse Labs Web Development Bootcamp",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
