@@ -1,6 +1,6 @@
 {
   "name": "@joshtantan/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic lodash implementation for Lighthouse Labs Web Development Bootcamp",
   "main": "index.js",
   "directories": {
