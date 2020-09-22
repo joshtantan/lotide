@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@joshtantan/lotide",
   "version": "1.0.0",
   "description": "A basic lodash implementation for Lighthouse Labs Web Development Bootcamp",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/joshtantan/lotide.git"
   },
-  "author": "Joshua Tan",
+  "author": "Joshua Tan <joshtantan@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joshtantan/lotide/issues"
