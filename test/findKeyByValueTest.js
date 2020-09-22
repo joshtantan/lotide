@@ -4,9 +4,9 @@ const assert = require('chai').assert;
 describe("#findKeyByValue", () => {
   it('returns "drama" for obj: {sci_fi: "The Expanse", comedy: "Brooklyn Nine-Nine", drama: "The Wire"} val: "The Wire"', () => {
     const bestTVShowsByGenre = {
-    sci_fi: "The Expanse",
-    comedy: "Brooklyn Nine-Nine",
-    drama:  "The Wire"
+      sci_fi: "The Expanse",
+      comedy: "Brooklyn Nine-Nine",
+      drama:  "The Wire"
     };
 
     const expected = "drama";
@@ -15,9 +15,9 @@ describe("#findKeyByValue", () => {
   });
   it('returns undefined for obj: {sci_fi: "The Expanse", comedy: "Brooklyn Nine-Nine", drama: "The Wire"} val: "That \'70s Show"', () => {
     const bestTVShowsByGenre = {
-    sci_fi: "The Expanse",
-    comedy: "Brooklyn Nine-Nine",
-    drama:  "The Wire"
+      sci_fi: "The Expanse",
+      comedy: "Brooklyn Nine-Nine",
+      drama:  "The Wire"
     };
 
     const expected = undefined;
