@@ -1,17 +1,17 @@
-const middle = function(array) {
+const middle = function(arr) {
   let midArr = [];
-  const arrLength = array.length;
+  const arrLength = arr.length;
 
   if (arrLength > 2) {
     if (arrLength % 2 === 0) {
       let midLowIndex = (arrLength / 2) - 1;
-      midArr.push(array[midLowIndex]);
+      midArr.push(arr[midLowIndex]);
 
       let midHighIndex = ++midLowIndex;
-      midArr.push(array[midHighIndex]);
+      midArr.push(arr[midHighIndex]);
     } else {
       let midIndex = Math.ceil(arrLength / 2) - 1;
-      midArr.push(array[midIndex]);
+      midArr.push(arr[midIndex]);
     }
   }
   
