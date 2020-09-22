@@ -25,10 +25,10 @@ const assertArraysEqual = function(actualArr, expectedArr, expectedResult) {
   }
 };
 
-const takeUntil = function(array, callback) {
+const takeUntil = function(arr, callback) {
   const results = [];
 
-  for (let item of array) {
+  for (let item of arr) {
     if (callback(item)) {
       break;
     }
