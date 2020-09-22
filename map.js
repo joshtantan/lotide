@@ -46,3 +46,5 @@ assertArraysEqual(results, ['d', 'l', 'o', 'r', 'm'], true);
 
 results = map(words, word => word + word);
 assertArraysEqual(results, ["groundground", "controlcontrol", "toto", "majormajor", "tomtom"], true);
+
+module.exports = map;

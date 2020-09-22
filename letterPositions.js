@@ -59,3 +59,5 @@ assertArraysEqual(testResults["u"], [7, 20], true);
 assertArraysEqual(testResults["s"], [8, 21], true);
 assertArraysEqual(testResults["e"], [9, 16, 22], true);
 assertArraysEqual(testResults["n"], [12], true);
+
+module.exports = letterPositions;
