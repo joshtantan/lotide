@@ -14,7 +14,7 @@
     "url": "git+https://github.com/joshtantan/lotide.git"
   },
   "author": "Joshua Tan <joshtantan@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/joshtantan/lotide/issues"
   },
